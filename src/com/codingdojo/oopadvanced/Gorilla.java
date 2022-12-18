@@ -2,9 +2,8 @@ package com.codingdojo.oopadvanced;
 
 public class Gorilla extends Mammal {
 	// proof of throw concept: https://insidethemagic.net/2021/07/gorilla-throws-poop-animal-kingdom-kj1/
-	public int displayEnergy() {
+	public void displayEnergy() {
 		System.out.println(energy + "/100 energy remaining...");
-		return energy;
 	}
 	
 	public int stinkyToss() {
